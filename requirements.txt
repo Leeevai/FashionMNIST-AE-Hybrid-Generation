@@ -1,0 +1,12 @@
+# Core libraries for data processing and mathematics
+numpy
+matplotlib
+scikit-learn
+
+# PyTorch and related utilities
+torch
+torchvision
+
+# Jupyter notebook tools for execution
+jupyter
+nbconvert
