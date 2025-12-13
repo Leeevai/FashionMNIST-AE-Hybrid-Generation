@@ -23,7 +23,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         # This command installs all packages listed in your requirements.txt
-        pip install -r requirements.txt
+        pip install -r FashionMNIST-AE-Hybrid-Generation/requirements.txt
 
     - name: Verify Code Execution by Running Notebook
       # This step executes the entire Jupyter notebook. 
