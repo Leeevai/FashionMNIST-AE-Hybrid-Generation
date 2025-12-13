@@ -28,6 +28,7 @@ jobs:
 
     - name: Verify Code Execution by Running Notebook
       # This step executes the entire Jupyter notebook. 
+      working-directory: ${{ github.workspace }}
       run: |
         echo "Running Jupyter Notebook for verification..."
         # Note: If the training is too long, you might need to adjust this command 
